@@ -1,0 +1,12 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/laya.ts",
+  "context": {
+    "withPlayground": true,
+    "enableExecuteCommand": false,
+    "availabilityZones": [
+      "us-east-1a",
+      "us-east-1c",
+      "us-east-1d"
+    ]
+  }
+}

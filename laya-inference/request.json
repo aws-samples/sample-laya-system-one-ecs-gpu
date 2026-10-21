@@ -1,0 +1,18 @@
+{
+  "model": "english",
+  "state": {
+    "body": "My package arrived but one item is missing."
+  },
+  "questions": {
+    "route": {
+      "type": "choice",
+      "instructions": "Which workflow should handle this request?",
+      "criteria": {
+        "fulfillment": "missing or incomplete items",
+        "delivery": "shipment delays or tracking",
+        "returns": "returns and refunds",
+        "account": "account changes"
+      }
+    }
+  }
+}

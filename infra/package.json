@@ -1,0 +1,22 @@
+{
+  "name": "laya-infra",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "laya": "bin/laya.ts"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.0",
+    "aws-cdk": "2.1143.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.273.0",
+    "constructs": "10.8.1"
+  }
+}
